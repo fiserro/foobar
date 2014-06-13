@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<indexer table="demo" mapper="com.ngdata.hbaseindexer.morphline.MorphlineResultToSolrMapper">
+   <!--<field name="created_at_l" value="m:created_at"/>
+   <field name="data_s" value="d:data"/>-->
+   <param name="morphlineFile" value="demo-morphlines.conf"/>
+</indexer>
