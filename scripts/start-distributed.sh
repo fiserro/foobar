@@ -1,0 +1,1 @@
+java -Dbootstrap_confdir=./solr/collection1/conf -Dcollection.configName=myconf -DzkHost=localhost:2181/solr -Dsolr.directoryFactory=HdfsDirectoryFactory -Dsolr.lock.type=hdfs  -Dsolr.hdfs.home=hdfs://hbase:9000/solr -jar start.jar
